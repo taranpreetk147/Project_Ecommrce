@@ -1,0 +1,30 @@
+﻿@model Project_Ecommr_116_C3.Models.ViewModels.ShoppingCartVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+    <div class="col-9">
+        <h2 class="text-primary">Order Detail</h2>
+    </div>
+</div>
+<div class="container rounded border">
+    <table id="tblData" class=" table table-active table-hover table-stripped table-bordered">
+        <thead>
+            <tr>
+                <th>OrderId</th>
+                <th>OrderDate</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+</div>
+@section Scripts
+    {
+    <script src="~/js/Order.js"></script>
+}
+
+
